@@ -1,14 +1,14 @@
-PUT /v2/accounts/me/entities/entityid123?api_key=c8d1359a7d3d23c4cee6932b963d2e10&amp;v=20180101 HTTP/1.1
+PUT /v2/accounts/me/entities/002?api_key=4e989efee3f72340987178c51649509c&v=20181022 HTTP/1.1
 Host: api.yext.com
 Content-Type: application/json
 Cache-Control: no-cache
-Postman-Token: 8661c4dd-fb2e-0569-7b0d-5c7dca5bd561
 
 {
-  "address": "90 Wilson Ave",
-  "address2": "Apt 1",
-  "city": "Brookyln",
-  "state": "NY",
-  "postalCode": "11237",
-  "region": "US"
+	"address": {
+	"line1": "209 Winthrop St",
+	"line2": "Apt 1L",
+	"city": "brooklyn",
+	"region": "ny",
+	"postalCode": "11225"
+	}
 }
